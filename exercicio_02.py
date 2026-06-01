@@ -7,7 +7,7 @@ palavra = input("Escreva uma palavra: ").strip()
 
 try:
     if not isinstance(palavra, str):
-        raise TypeError("A palavra difitada deve ser uma string")
+        raise TypeError("A palavra digitada deve ser uma string")
     
     apenas_letras = "".join(l for l in palavra if l.isalpha)
 
